@@ -77,7 +77,7 @@ config/local.js
 # But rather than just adding the lockfile to
 # your .gitignore, try this first:
 # ```
-#     rm -rf node_modules
+    rm -rf node_modules
 #     rm package-lock.json
 #     npm install
 # ```
@@ -87,8 +87,8 @@ config/local.js
 #
 ################################################
 
-# node_modules
-# node_modules/.bin
+# node_modules/
+node_modules/.bin/
 
 ################################################
 #
